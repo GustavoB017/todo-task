@@ -1,5 +1,6 @@
 var mongoose = require("mongoose");
 var express = require("express");
+var TaskModel = require('./task_schema');
 var router = express.Router();
 var query = "mongodb+srv://gus_parquesoft:1234@cluster0.vroxppg.mongodb.net/taskBD?retryWrites=true&w=majority"
 
